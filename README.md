@@ -1,5 +1,5 @@
 
-# Path of files for qQTL analsyis
+# Path of files for eQTL analsyis
 
 To macth the order pf phenotype files and genotype file use the order from mvp based geno.ind data as a reference. 
 
