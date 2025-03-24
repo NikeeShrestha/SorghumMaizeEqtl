@@ -3,7 +3,7 @@
 
 To macth the order pf phenotype files and genotype file use the order from mvp based geno.ind data as a reference. 
 
-You can use command in R as :
+You can use the command in R as :
 
 genoList <- read.table("mvp_maize.geno.geno.ind", header = F)
 colnames(genoList) <- "taxa"
@@ -38,9 +38,9 @@ ph <- plyr::join(genoList, pheno, by="taxa")
 
 - /work/schnablelab/nikees/vla_karla/input/counts.NE2021.811.filtered_bcSP.orderSampler.ordered.txt
 
-Genotype data was filetered to exclude markers with MAF < 0.05 considering only homozygous alleles and hetrozgotes > 0.05.
+Genotype data was filtered to exclude markers with MAF < 0.05 considering only homozygous alleles and markers with heterozygosity > 0.05.
 
-Only biallelic markers were included. The totl number of PCs used in the GWAS were 3 for both sorghum and maize eQTL. 
+Only biallelic markers were included. The total number of PCs used in the GWAS was 3 for both sorghum and maize eQTL. 
 
 Parameters for rMVP used:
 
