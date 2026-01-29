@@ -1,9 +1,9 @@
 
-# Path of files for qQTL analsyis
+# Path of files for eQTL analsyis
 
 To match the order pf phenotype files and genotype file use the order from mvp based geno.ind data as a reference. 
 
-You can use command in R as :
+You can use the command in R as :
 
 genoList <- read.table("mvp_maize.geno.geno.ind", header = F)
 colnames(genoList) <- "taxa"
@@ -56,7 +56,6 @@ Parameters for rMVP used:
     method=c("MLM"),
     file.output=c("pmap.signal"
     )
-    
     
     
 ## How did I generate the markers for sorghum?
