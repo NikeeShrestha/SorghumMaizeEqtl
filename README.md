@@ -66,7 +66,7 @@ Filtered with missing rate<0.5, multiallelic marker, InbreedingCoeff>0, MAF>0.01
 
 Imputed biallelic genetic markers: 8,864,198 SNPs and 2,207,670 indels --> Total markers: 11,071,868
 
-The imputed vcf file is located in this path: `/mnt/nrdstor/schnablelab/nikees/sorghum_new_WGS/SAP_BQSR_imputed_allchr_snps_renamed.vcf.gz`
+The imputed vcf file is located in this path: `/mnt/nrdstor/schnablelab/nikees/sorghum_new_WGS/SAP_BQSR_imputed_allchr_sns_indels_renamed.vcf.gz`
 
 Filtered for 648 individuals present in RNAseq dataset
 
