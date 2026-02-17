@@ -38,7 +38,7 @@ ph <- plyr::join(genoList, pheno, by="taxa")
 
 - `/work/schnablelab/nikees/sorghumeqtl/data/counts.NE2021.648.filtered_bcSP.orderSampler.ordered.txt`
 
-Genotype data was filetered to exclude markers with MAF < 0.05 considering only homozygous alleles and heterozgotes > 0.05 from this file: `/work/schnablelab/nikees/sorghumeqtl/data/SAP_BQSR_imputed_allchr_snps_renamed.vcf.gz`
+Genotype data was filetered to exclude markers with MAF < 0.05 considering only homozygous alleles and heterozgotes > 0.05 from this file: `/mnt/nrdstor/schnablelab/nikees/sorghum_new_WGS/SAP_BQSR_imputed_allchr_snps_indels_renamed.vcf.gz`
 
 Only biallelic markers were included. The total number of PCs used in the GWAS were 3 for both sorghum and maize eQTL. 
 
@@ -66,8 +66,8 @@ Filtered with missing rate<0.5, multiallelic marker, InbreedingCoeff>0, MAF>0.01
 
 Imputed biallelic genetic markers: 8,864,198 SNPs and 2,207,670 indels --> Total markers: 11,071,868
 
-The imputed vcf file is located in this path: `/mnt/nrdstor/schnablelab/nikees/sorghum_new_WGS/SAP_BQSR_imputed_allchr_sns_indels_renamed.vcf.gz`
+The imputed vcf file is located in this path: `/mnt/nrdstor/schnablelab/nikees/sorghum_new_WGS/SAP_BQSR_imputed_allchr_snps_indels_renamed.vcf.gz`
 
-Filtered for 648 individuals present in RNAseq dataset
+Filtered for 648 individuals present in RNAseq dataset: `/work/schnablelab/nikees/sorghumeqtl/data/SAP_imputed_648_filter2.vcf`
 
 Filtered for MAF 0.05 and heterozygousity 0.05: 4,167,091 SNPs and 525,490 indels --> final total markers used for GWAS analysis: 4,692,581
